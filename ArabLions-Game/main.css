@@ -1,0 +1,1189 @@
+            @import url('http://fonts.cdnfonts.com/css/wonder-boy-in-monster-world');
+            @import url('http://fonts.cdnfonts.com/css/common-pixel');
+            @import url('https://fontstruct.com/fontstructions/show/1425456');
+            @media screen and (min-width:1224px) and (max-width:3999px) {
+                @font-face {
+                    font-family: myFont;
+                    src: url("Arabic Pixel 2.ttf");
+                }
+                .body1 {
+                    background-color: white;
+                }
+                .title-Game-Page {
+                    font-size: 30px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: absolute;
+                    top: 3px;
+                    left: 35%;
+                }
+                .button-game {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    top: 300px;
+                    right: 10%;
+                    cursor: pointer;
+                }
+                .img-boomb {
+                    width: 30px;
+                    height: 40px;
+                    position: absolute;
+                    top: -0%;
+                }
+                .img-1 {
+                    width: 400px;
+                    height: auto;
+                    position: absolute;
+                    left: 32%;
+                    top: 80px;
+                }
+                .img-kh {
+                    width: auto;
+                    height: auto;
+                    position: fixed;
+                    right: -0%;
+                    top: 5px;
+                }
+                #button-khaznah {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    position: absolute;
+                    top: 520px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #button-khaznah:active {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 520px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #count2 {
+                    color: black;
+                    position: absolute;
+                    top: -2%;
+                    left: 30%;
+                    font-size: 40px;
+                    font-family: 'myFont', sans-serif;
+                }
+                .txt-div {
+                    position: absolute;
+                    left: 30%;
+                    top: 10px;
+                    font-size: 20px;
+                    color: black;
+                }
+                #timer {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 90px;
+                    left: 4%;
+                    color: red;
+                    font-family: 'Wonder Boy In Monster World', sans-serif;
+                }
+                .topNav-homepage {
+                    width: 400px;
+                    height: 100%;
+                    border: 4px solid black;
+                    background-color: transparent;
+                    position: fixed;
+                    left: 0%;
+                    top: 0px;
+                }
+                .title-homepage {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 5%;
+                }
+                .play {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .play:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 4%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 2%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .copy {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 9%;
+                    font-size: 10px;
+                    top: 420px;
+                    color: black;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .text-mo7awala {
+                    font-family: 'myFont', sans-serif;
+                    font-size: 40px;
+                    color: red;
+                    position: absolute;
+                    left: 30%;
+                    top: 200px;
+                    text-decoration: none;
+                    transform: all ease 0.30s;
+                    animation: animation404 infinite 1s;
+                }
+                @keyframes animation404 {
+                    0% {
+                        font-size: 40px;
+                    }
+                    40% {
+                        font-size: 30px;
+                    }
+                    100% {
+                        font-size: 40px;
+                    }
+                }
+                .home404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 20%;
+                    top: 200px;
+                }
+                .sup404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 20%;
+                    top: 200px;
+                }
+                .info-devloppers {
+                    color: blue;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 200px;
+                    font-size: 40px;
+                    direction: rtl;
+                    display: none;
+                }
+                .aboutTheGame {
+                    color: blue;
+                    font-family: sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 200px;
+                    font-size: 30px;
+                    direction: rtl;
+                    display: none;
+                }
+                /*--------- Record numbers ----------->*/
+                .divRecord {
+                    position: fixed;
+                    right: 0%;
+                    top: -0%;
+                    width: 300px;
+                    height: 100%;
+                    background-color: rgb(247, 244, 244);
+                }
+                .titleRecord {
+                    font-size: 20px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: fixed;
+                    right: 5%;
+                }
+            }
+            /* ========================== PC ============================== */
+            
+            @media screen and (min-width:220px) and (max-width:767px) {
+                @font-face {
+                    font-family: myFont;
+                    src: url("Arabic Pixel 2.ttf");
+                }
+                .body1 {
+                    background-color: white;
+                }
+                .title-Game-Page {
+                    font-size: 30px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: absolute;
+                    top: 3px;
+                    left: 35%;
+                }
+                .button-game {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    top: 300px;
+                    right: 10%;
+                    cursor: pointer;
+                }
+                .img-boomb {
+                    width: 30px;
+                    height: 40px;
+                    position: absolute;
+                    top: -0%;
+                }
+                .img-1 {
+                    width: 400px;
+                    height: auto;
+                    position: absolute;
+                    left: 32%;
+                    top: 80px;
+                }
+                .img-kh {
+                    width: auto;
+                    height: auto;
+                    position: fixed;
+                    right: 40%;
+                    top: 5px;
+                }
+                #button-khaznah {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    position: absolute;
+                    top: 520px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #button-khaznah:active {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 520px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #count2 {
+                    color: black;
+                    position: absolute;
+                    top: -2%;
+                    left: 30%;
+                    font-size: 40px;
+                    font-family: 'myFont', sans-serif;
+                }
+                .txt-div {
+                    position: absolute;
+                    left: 30%;
+                    top: 10px;
+                    font-size: 20px;
+                    color: black;
+                }
+                #timer {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 90px;
+                    left: 4%;
+                    color: red;
+                    font-family: 'Wonder Boy In Monster World', sans-serif;
+                }
+                .topNav-homepage {
+                    width: 400px;
+                    height: 100%;
+                    border: 4px solid black;
+                    background-color: transparent;
+                    position: fixed;
+                    left: 0%;
+                    top: 0px;
+                }
+                .title-homepage {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 2%;
+                }
+                .play {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 1%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .play:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 3%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 1%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 3%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 1%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 3%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .copy {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 3%;
+                    font-size: 10px;
+                    top: 420px;
+                    color: black;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .text-mo7awala {
+                    font-family: 'myFont', sans-serif;
+                    font-size: 40px;
+                    color: red;
+                    position: absolute;
+                    left: 30%;
+                    top: 200px;
+                    text-decoration: none;
+                    transform: all ease 0.30s;
+                    animation: animation404 infinite 1s;
+                }
+                @keyframes animation404 {
+                    0% {
+                        font-size: 40px;
+                    }
+                    40% {
+                        font-size: 30px;
+                    }
+                    100% {
+                        font-size: 40px;
+                    }
+                }
+                .home404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 20%;
+                    top: 200px;
+                }
+                .sup404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 20%;
+                    top: 200px;
+                }
+                .info-devloppers {
+                    color: blue;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 200px;
+                    font-size: 40px;
+                    direction: rtl;
+                    display: none;
+                }
+                .aboutTheGame {
+                    color: blue;
+                    font-family: sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 200px;
+                    font-size: 30px;
+                    direction: rtl;
+                    display: none;
+                }
+                /*--------- Record numbers ----------->*/
+                .divRecord {
+                    position: fixed;
+                    right: 0%;
+                    top: -0%;
+                    width: 300px;
+                    height: 100%;
+                    background-color: rgb(247, 244, 244);
+                }
+                .titleRecord {
+                    font-size: 20px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: fixed;
+                    right: 5%;
+                }
+            }
+            /* ===============  phone  =====================*/
+            
+            @media screen and (min-width:220px) and (max-width:767px) {
+                @font-face {
+                    font-family: myFont;
+                    src: url("Arabic Pixel 2.ttf");
+                }
+                .body1 {
+                    background-color: white;
+                }
+                .title-Game-Page {
+                    font-size: 30px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: absolute;
+                    top: 3px;
+                    left: 35%;
+                }
+                .button-game {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    top: 300px;
+                    right: 10%;
+                    cursor: pointer;
+                }
+                .img-boomb {
+                    width: 30px;
+                    height: 40px;
+                    position: absolute;
+                    top: -0%;
+                }
+                .img-1 {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    left: 32%;
+                    top: 80px;
+                }
+                .img-kh {
+                    width: 200px;
+                    height: 220px;
+                    position: fixed;
+                    right: -0%;
+                    top: 100px;
+                }
+                #button-khaznah {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #button-khaznah:active {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #count2 {
+                    color: black;
+                    position: absolute;
+                    top: -4%;
+                    left: 10%;
+                    font-size: 40px;
+                    font-family: 'myFont', sans-serif;
+                }
+                .txt-div {
+                    position: absolute;
+                    left: 30%;
+                    top: 10px;
+                    font-size: 20px;
+                    color: black;
+                }
+                #timer {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 90px;
+                    left: 4%;
+                    color: red;
+                    font-family: 'Wonder Boy In Monster World', sans-serif;
+                }
+                .topNav-homepage {
+                    width: 150px;
+                    height: 100%;
+                    border: 4px solid black;
+                    background-color: transparent;
+                    position: fixed;
+                    left: 0%;
+                    top: 0px;
+                    display: none;
+                }
+                .title-homepage {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 5%;
+                }
+                .play {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .play:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 4%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 2%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .copy {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 9%;
+                    font-size: 10px;
+                    top: 420px;
+                    color: black;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .text-mo7awala {
+                    font-family: 'myFont', sans-serif;
+                    font-size: 40px;
+                    color: red;
+                    position: absolute;
+                    left: 30%;
+                    top: 100px;
+                    text-decoration: none;
+                    transform: all ease 0.30s;
+                }
+                .home404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 20%;
+                    top: 200px;
+                }
+                .sup404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 20%;
+                    top: 200px;
+                }
+                .info-devloppers {
+                    color: blue;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 40px;
+                    direction: rtl;
+                    display: none;
+                }
+                .aboutTheGame {
+                    color: blue;
+                    font-family: sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 30px;
+                    direction: rtl;
+                    display: none;
+                }
+                /*--------- Record numbers ----------->*/
+                .divRecord {
+                    position: fixed;
+                    right: 0%;
+                    top: -0%;
+                    width: 300px;
+                    height: 100%;
+                    background-color: rgb(247, 244, 244);
+                    display: none;
+                }
+                .titleRecord {
+                    font-size: 20px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: fixed;
+                    right: 5%;
+                    display: none;
+                }
+            }
+            /* ===============  tablet  =====================*/
+            
+            @media screen and (min-width:768px) and (max-width:1223px) {
+                @font-face {
+                    font-family: myFont;
+                    src: url("Arabic Pixel 2.ttf");
+                }
+                .body1 {
+                    background-color: white;
+                }
+                .title-Game-Page {
+                    font-size: 30px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: absolute;
+                    top: 3px;
+                    left: 35%;
+                }
+                .button-game {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    top: 300px;
+                    right: 10%;
+                    cursor: pointer;
+                }
+                .img-boomb {
+                    width: 30px;
+                    height: 40px;
+                    position: absolute;
+                    top: -0%;
+                }
+                .img-1 {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    left: 32%;
+                    top: 80px;
+                }
+                .img-kh {
+                    width: 200px;
+                    height: 220px;
+                    position: fixed;
+                    right: -0%;
+                    top: 100px;
+                }
+                #button-khaznah {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #button-khaznah:active {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #count2 {
+                    color: black;
+                    position: absolute;
+                    top: -4%;
+                    left: 10%;
+                    font-size: 40px;
+                    font-family: 'myFont', sans-serif;
+                }
+                .txt-div {
+                    position: absolute;
+                    left: 30%;
+                    top: 10px;
+                    font-size: 20px;
+                    color: black;
+                }
+                #timer {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 90px;
+                    left: 4%;
+                    color: red;
+                    font-family: 'Wonder Boy In Monster World', sans-serif;
+                }
+                .topNav-homepage {
+                    width: 150px;
+                    height: 100%;
+                    border: 4px solid black;
+                    background-color: transparent;
+                    position: fixed;
+                    left: 0%;
+                    top: 0px;
+                    display: none;
+                }
+                .title-homepage {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 5%;
+                }
+                .play {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .play:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 4%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 2%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .copy {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 9%;
+                    font-size: 10px;
+                    top: 420px;
+                    color: black;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .text-mo7awala {
+                    font-family: 'myFont', sans-serif;
+                    font-size: 40px;
+                    color: red;
+                    position: absolute;
+                    left: 30%;
+                    top: 100px;
+                    text-decoration: none;
+                    transform: all ease 0.30s;
+                }
+                .home404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 20%;
+                    top: 200px;
+                }
+                .sup404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 20%;
+                    top: 200px;
+                }
+                .info-devloppers {
+                    color: blue;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 40px;
+                    direction: rtl;
+                    display: none;
+                }
+                .aboutTheGame {
+                    color: blue;
+                    font-family: sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 30px;
+                    direction: rtl;
+                    display: none;
+                }
+                /*--------- Record numbers ----------->*/
+                .divRecord {
+                    position: fixed;
+                    right: 0%;
+                    top: -0%;
+                    width: 300px;
+                    height: 100%;
+                    background-color: rgb(247, 244, 244);
+                    display: none;
+                }
+                .titleRecord {
+                    font-size: 20px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: fixed;
+                    right: 5%;
+                    display: none;
+                }
+            }
+            /*=======================*/
+            
+            @media screen and (min-width:4000px) and (max-width:5000px) {
+                @font-face {
+                    font-family: myFont;
+                    src: url("Arabic Pixel 2.ttf");
+                }
+                .body1 {
+                    background-color: white;
+                }
+                .title-Game-Page {
+                    font-size: 30px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: absolute;
+                    top: 3px;
+                    left: 35%;
+                }
+                .button-game {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    top: 300px;
+                    right: 10%;
+                    cursor: pointer;
+                }
+                .img-boomb {
+                    width: 30px;
+                    height: 40px;
+                    position: absolute;
+                    top: -0%;
+                }
+                .img-1 {
+                    width: 200px;
+                    height: auto;
+                    position: absolute;
+                    left: 32%;
+                    top: 80px;
+                }
+                .img-kh {
+                    width: 200px;
+                    height: 220px;
+                    position: fixed;
+                    right: -0%;
+                    top: 100px;
+                }
+                #button-khaznah {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #button-khaznah:active {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10%;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 320px;
+                    left: 43%;
+                    border: solid black 1px;
+                }
+                #count2 {
+                    color: black;
+                    position: absolute;
+                    top: 1%;
+                    left: 30%;
+                    font-size: 40px;
+                    font-family: 'myFont', sans-serif;
+                }
+                .txt-div {
+                    position: absolute;
+                    left: 30%;
+                    top: 10px;
+                    font-size: 20px;
+                    color: black;
+                }
+                #timer {
+                    font-size: 30px;
+                    position: absolute;
+                    top: 90px;
+                    left: 4%;
+                    color: red;
+                    font-family: 'Wonder Boy In Monster World', sans-serif;
+                }
+                .topNav-homepage {
+                    width: 150px;
+                    height: 100%;
+                    border: 4px solid black;
+                    background-color: transparent;
+                    position: fixed;
+                    left: 0%;
+                    top: 0px;
+                    display: none;
+                }
+                .title-homepage {
+                    font-family: 'myFont', sans-serif;
+                    position: fixed;
+                    left: 5%;
+                }
+                .play {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .play:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 150px;
+                    color: blue;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 8%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .info-TheGame:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 6%;
+                    font-size: 30px;
+                    top: 240px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 4%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .devloppers:hover {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 2%;
+                    font-size: 30px;
+                    top: 320px;
+                    color: blue;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .copy {
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 9%;
+                    font-size: 10px;
+                    top: 420px;
+                    color: black;
+                    cursor: pointer;
+                    transition: all ease 0.30s;
+                }
+                .text-mo7awala {
+                    font-family: 'myFont', sans-serif;
+                    font-size: 40px;
+                    color: red;
+                    position: absolute;
+                    left: 30%;
+                    top: 100px;
+                    text-decoration: none;
+                    transform: all ease 0.30s;
+                }
+                .home404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    left: 20%;
+                    top: 200px;
+                }
+                .sup404 {
+                    color: black;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 20%;
+                    top: 200px;
+                }
+                .info-devloppers {
+                    color: blue;
+                    font-family: 'myFont', sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 40px;
+                    direction: rtl;
+                    display: none;
+                }
+                .aboutTheGame {
+                    color: blue;
+                    font-family: sans-serif;
+                    position: absolute;
+                    right: 2%;
+                    top: 700px;
+                    font-size: 30px;
+                    direction: rtl;
+                    display: none;
+                }
+                /*--------- Record numbers ----------->*/
+                .divRecord {
+                    position: fixed;
+                    right: 0%;
+                    top: -0%;
+                    width: 300px;
+                    height: 100%;
+                    background-color: rgb(247, 244, 244);
+                    display: none;
+                }
+                .titleRecord {
+                    font-size: 20px;
+                    font-family: 'myFont', sans-serif;
+                    color: black;
+                    position: fixed;
+                    right: 5%;
+                    display: none;
+                }
+            }
